@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="./assests/favicon.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav id="navigation-bar" role="navigation" aria-label="main navigation">
+            <div class="logo" alt="Anthony's logo">Anthony</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="mobile-header">
+            <div class="logo" role="banner">Anthony</div>
+            <div class="hamburger" id="hamburger" tabindex="0">
+                &#9776;
+            </div>
+        </nav>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        <section id="projects">
+                <h2 class="title">My <span class="aboutme">Projects</span></h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <img src="./assests/portfolio-project.png" alt="Anthony's Portfolio Website" class="project-image">
+                        <h2 class="project-title">Portfolio Website</h2>
+                        <p class="project-description">My portfolio website that I created using HTML, CSS and JavaScript</p>
+                        <div class="tech-stack">
+                            <img src="./assests/html.png" alt="HTML logo" class="html-img">
+                            <img src="./assests/css.png" alt="CSS logo" class="css-img">
+                            <img src="./assests/javascript.png" alt="javascript logo" class="javascript-img">
+                        </div>
+                        <div class="button">
+                            <a href="https://github.com/antonodu/html-css-js-portfolio" aria-label="View Portfolio Website code on GitHub">View on GitHub</a>
+                        </div>
+                   </div>
+                    <div class="project-card">
+                        <img src="./assests/illustration-img.png" alt="Development in progress" class="project-image">
+                        <h2 class="project-title">Development in Progress</h2>
+                        <p class="project-description">Expected to be completed: OCT 2024 - A Music Festival Website</p>
+                        <div class="tech-stack">
+                            <img src="./assests/html.png" alt="HTML logo" class="html-img">
+                            <img src="./assests/css.png" alt="CSS logo" class="css-img">
+                            <img src="./assests/javascript.png" alt="javascript logo" class="javascript-img">
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./assests/illustration-img.png" alt="Development in progress" class="project-image">
+                        <h2 class="project-title">Development in Progress</h2>
+                        <p class="project-description">Expected to be completed: OCT 2024</p>
+                        <div class="tech-stack">
+                            <img src="./assests/html.png" alt="HTML logo" class="html-img">
+                            <img src="./assests/css.png" alt="CSS logo" class="css-img">
+                            <img src="./assests/javascript.png" alt="javascript logo" class="javascript-img">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <footer class="project-footer" role="contentinfo">
+            Copyright © 2024 | All Rights Reserved.
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
