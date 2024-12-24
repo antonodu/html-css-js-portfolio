@@ -476,10 +476,6 @@ bottom: 50px;
     position: relative;
     top: 270px;
 }
-footer {
-    display: flex;
-    float: right;
-}
 
 /*PROJECTS */
 h4 {
@@ -550,7 +546,7 @@ h4 {
     text-decoration: none;
 }
 
-#project-footer {
+.project-footer {
     display: flex;
     position: relative;
     top: 110px;
@@ -580,7 +576,7 @@ h4 {
     width: 190px;
 }
 
-#blog-footer {
+.blog-footer {
     display: flex;
     position: relative;
     top: 480px;
@@ -629,8 +625,6 @@ h4 {
     width: 170px;   
 }
 
-
-
 .contactform-socials a {
     display: inline-flex;
     position: relative;
@@ -660,11 +654,21 @@ h4 {
     left:600px;
 }
 
-#contact-footer {
+.contact-footer {
     position: relative;
     top: 50px;
 }
 
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+}
 form {
     max-width: 600px;
     margin: 0 auto;
