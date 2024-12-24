@@ -143,7 +143,7 @@
 
 
 /* Tablet and Mobile view */
-@media screen and (max-width:681px) {
+@media screen and (max-width:799px) {
     .menu a {
         font-size: 20px;
     }
