@@ -15,6 +15,7 @@ body {
     font-family: "Poppins", sans-serif;
     background: #081b29;
     color: #ededed;
+    margin: 0;
 }
 /*.html { scroll-behavior: smooth;} */
 .logo::before {
@@ -588,41 +589,37 @@ h4 {
     font-size: 3rem;
     position: relative;
     top: 20px;
+    right: 60px;
 
 }
 
 .contactform-heading {
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    position: relative;
-    top: 100px;
-    left: 150px;
-}
-
-.contact-image {
     display: flex;
-    height: 100px;
+    justify-content: center;
     position: relative;
-    top: 30px;
-    left: 170px;
-
+    top: 40px;
+    right: 120px;
 }
+
 .contactform-subtext {
     display: flex;
-    position: absolute;
-    top: 280px;
-    left: 150px;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 10px;
     font-size: 1rem;
 }
 
 .contactform-socials {
-    position: absolute;
     display: flex;
-    justify-content: space-between;
-    bottom: 190px;
-    left: 145px;
-    width: 170px;   
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 80px;
+    right: 65px;
 }
 
 .contactform-socials a {
@@ -643,16 +640,6 @@ h4 {
     transition: .5s;
 }
 
-.contactform-box {
-    display: flex;
-    width: 500px;
-    height: 440px;
-    background-color: #1E293B;
-    border-radius: 8%;
-    position: relative;
-    top: 3px;
-    left:600px;
-}
 
 .contact-footer {
     position: relative;

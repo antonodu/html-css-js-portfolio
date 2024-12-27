@@ -92,6 +92,10 @@
     position: relative;
     top: 30px;
 }
+.about-footer {
+    font-size: 0.8rem;
+}
+
 
 /* PROJECTS */ 
 .projects-container {
@@ -103,28 +107,47 @@
     align-items: center;
 }
 
+.project-footer {
+    font-size: 0.8rem;
+}
+
+/* BLOG * /*/
+.footer {
+    font-size: 0.8rem;
+}
+
+
 /* CONTACT */
+
+.contactform {
+    display: flex;
+}
 .contact-title {
     position: relative;
-    top: 60px;
+    top: 140px;
 } 
 
 .contactform-heading {
+    display: flex;
+    justify-content: flex-start;
     position: relative;
-    left: 290px;
+    top: 160px;
+    left: 166px;
 }
 
 .contactform-subtext {
     display: flex;
+    justify-content: flex-start;
     position: relative;
-    top: 103px;
-    left: 290px;
+    top: 170px;
+    left: 167px;
 }
 
 .contactform-socials {
+    display: flex;
     position: relative;
-    top: 120px;
-    left: 290px
+    top: 220px;
+    right: ;
 }
 
 .contactform-box {
@@ -137,6 +160,8 @@
 .contact-footer {
     position: relative;
     top: 180px;
+    font-size: 0.8rem;
+    
 }
 
 
@@ -206,25 +231,10 @@
 }
 
 /* CONTACT */
-.contactform-heading {
-    position: relative;
-    left: 200px;
-}
 
-.contactform-subtext {
-    position: relative;
-    left: 200px
-}
 
-.contactform-socials {
-    position: relative;
-    left: 200px
-}
 
-.contactform-box {
-    position: relative;
-    left: 140px;
-}
+
 }
 
 }
