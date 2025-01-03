@@ -20,7 +20,19 @@
     .home-content {
         text-align: center;
         position: relative;
-        top: 60px;
+        top: 170px;
+    }
+
+    .avatar {
+        background: transparent;
+        border: none;
+        position: relative;
+        bottom: 69px;
+        left: -277px;
+    }
+
+    .avatar img {
+        overflow: hidden;
     }
 
     .home-content h1 {
@@ -52,11 +64,6 @@
         right: -500px;
     }
 
-    .avatar {
-    position: relative;
-    top: 40px;
-
-  }
 
     .home-footer {
         position: relative;
@@ -170,10 +177,7 @@
         font-size: 20px;
     }
 
-    .home-content  {
-        top: 170px;
-    }
-
+   
     .home-content h1 {
         font-size: 1.75rem;
     }
@@ -187,18 +191,8 @@
     }
 
     
-    .avatar {
-        background-color: transparent;
-        border: none;
-        position: relative;
-        top: -90px;
-        left: -280px;
-    }
+ 
 
-    .avatar img {
-        width: 250px;
-        height: 250px;
-    }
 
     .btn-box a {
         font-size: 0.9rem;
@@ -231,7 +225,5 @@
 
 
 
-
-}
 
 }
