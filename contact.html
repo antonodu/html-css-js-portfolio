@@ -35,24 +35,51 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     <section id="contactform">
-        <h2 class="contact-title">Contact <span class="aboutme">Me</span></h2>
-            <p class="contactform-heading">Get in Touch!</p>
+        <h2 class="contact-title">Let's Work <span class="aboutme">Together!</span></h2>
+             <div class="contactform-box">
             <p class="contactform-subtext">
-                Get in touch with me. I'm open to freelance, <br>
-                contract work or project collaboration. Have a
-                <br> question? I'm here to help. I specialise in creating <br> 
-                 creating user-friendly accessible web interfaces. 
-                 <br> Drop me a message if you're interested in working <br> together.
+                Do you have an existing project you need help with redesigning and developing? 
+                Or you need a website or web application built from scratch. 
+                Get in touch with me. I’m open to freelance opportunities, contract work or project collaboration. 
+                Have a question? Drop me a message
             </p>
+
+                <form action="process-form.php" method="POST" aria-labelledby="contact-heading">
+                    <input type="hidden" name="form-name" value="contact">
+                    <div>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required aria-labelledby="true">
+                    </div>
+                    <div>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" id="email" required aria-labelledby="true">
+                        <div id="emailHelp" aria-live="polite">
+                            Please Enter a valid email address
+                        </div>
+                    </div> 
+
+                    <div>
+                        <label for="message">Your Message:</label>
+                        <textarea name="message" id="message" rows="5" required aria-required="true"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+                    <div id="success-message" role="status" aria-live="polite" hidden>
+                        Thank you! Your essage has been sent successfully
+                    </div>
+                </form>
+            </div>
+
             <div class="contactform-socials">
                 <a href="https://github.com/antonodu" aria-label="GitHub"><i class='bx bxl-github'></i></a>
                 <a href="https://www.linkedin.com/in/anthonyodumodu/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://www.instagram.com/creationsbychiagz/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
-                <a href="mailto:antonsodu@gmail.com" aria-label="Email"><i class='bx bxs-envelope'></i></a>
             </div>
+    
             
     </section>
-    <footer class="footer"> 
+    <footer class="contact-footer"> 
         Copyright © 2024 | All Rights Reserved.
     </footer>
     <script src="script.js"></script>

@@ -126,42 +126,48 @@
 
 /* CONTACT */
 
-.contactform {
-    display: flex;
+.contact-title {
+    font-size: 2.5rem;
 }
+
+
+.contactform-box {
+    flex-direction: column;
+    gap: 15px;
+}
+
 .contact-title {
     position: relative;
     top: 140px;
+    left: 30px;
 } 
-
-.contactform-heading {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    top: 160px;
-    left: 166px;
-}
 
 .contactform-subtext {
     display: flex;
     justify-content: flex-start;
     position: relative;
-    top: 170px;
-    left: 167px;
+    top: 130px;
+    left: 130px;
+}
+
+form {
+    position: relative;
+    top: 80px;
+    left: 120px ;
 }
 
 .contactform-socials {
     display: flex;
+    justify-content: flex-start;
     position: relative;
-    top: 220px;
-    right: ;
+    top: 100px;
+    left: 220px;
 }
 
-.contactform-box {
-    display: flex;
+.contact-footer {
+    font-size: 0.8rem;
     position: relative;
-    top: 150px;
-    left: 230px;
+    top: 120px;
 }
 
 
