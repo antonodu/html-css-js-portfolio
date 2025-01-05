@@ -128,19 +128,15 @@
 
 .contact-title {
     font-size: 2.5rem;
+    position: relative;
+    top: 140px;
+    left: 30px;
 }
-
 
 .contactform-box {
     flex-direction: column;
     gap: 15px;
 }
-
-.contact-title {
-    position: relative;
-    top: 140px;
-    left: 30px;
-} 
 
 .contactform-subtext {
     display: flex;

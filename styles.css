@@ -622,7 +622,7 @@ h4 {
 }
 
 .contactform-socials {
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     gap: 30px;
     position: relative;
