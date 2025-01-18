@@ -547,6 +547,22 @@ h4 {
     text-decoration: none;
 }
 
+.button-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-btn a {
+    background: #FF7F50;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 10px;
+
+}
+
 .project-footer {
     display: flex;
     position: relative;
