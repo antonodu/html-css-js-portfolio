@@ -10,65 +10,56 @@
 
     #hamburger {
         display: block;
+        right: 0px;
     }
 
 
-    .home {
+    #home {
         flex-direction: column;
-        padding: 10%;
-    }
-    .home-content {
+        padding: 20px;
         text-align: center;
         position: relative;
-        top: 170px;
+        top: 150px;
+    }
+    .home-content {
+        max-width: 100%;
     }
 
-    .avatar {
-        background: transparent;
-        border: none;
-        position: relative;
-        bottom: 69px;
-        left: -277px;
-    }
-
-    .avatar img {
-        overflow: hidden;
-    }
-
-    .home-content h1 {
-        font-size: 2.625rem;
-        position: relative;
-        left: 60px;
-  
-    }
-
-    .home-content h2 {
-        font-size: 1.875rem;
-        position: relative;
-        left: 60px;
-     
+    .home-content h1, .home-content h2 {
+        font-size: 1.8rem;
     }
 
     .home-content p {
+        font-size: 0.8rem;
+    }
+
+    .avatar {
+        border: none;
+        background: transparent;
+        margin: -40px auto;
+        left: 0;
         position: relative;
-        left: 60px;
+        bottom: 90px;
+        overflow: hidden;
+        justify-content: center;
+        }
+
+    .avatar-img {
+        height: 170px;
     }
 
     .btn-box {
-        position: relative;
-        left: 60px;
+        top: 110px;
     }
-
-    .social-icons {
-        position: relative;
-        right: -500px;
-    }
-
 
     .home-footer {
-        position: relative;
-        top: 170px;
+        font-size: 0.8rem;
+        justify-content: center;
     }
+
+
+
+    
 
 /*ABOUT ME */
 .title {
@@ -101,6 +92,7 @@
 }
 .about-footer {
     font-size: 0.8rem;
+    justify-content: center;
 }
 
 
@@ -116,11 +108,13 @@
 
 .project-footer {
     font-size: 0.8rem;
+    justify-content: center;
 }
 
 /* BLOG * /*/
-.footer {
+.services-footer {
     font-size: 0.8rem;
+    justify-content: center;
 }
 
 
@@ -164,9 +158,8 @@ form {
     font-size: 0.8rem;
     position: relative;
     top: 120px;
+    justify-content: center;
 }
-
-
     
 }
 
@@ -174,36 +167,35 @@ form {
 
 
 /* Tablet and Mobile view */
-@media screen and (max-width:799px) {
+@media screen and (max-width:480px) {
     .menu a {
         font-size: 20px;
     }
 
    
     .home-content h1 {
-        font-size: 1.75rem;
+        font-size: 1.4rem;
     }
 
     .home-content h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .home-content p {
-        font-size: 0.9rem;
+        font-size: 0.6rem;
     }
-
-    
- 
-
 
     .btn-box a {
         font-size: 0.9rem;
     }
 
-    .social-icons a {
-        height: 30px;
-        width: 30px;
+    .social-icons {
+        display: flex;
+        position: absolute;
+        left: 800px;
     }
+
+  
 
     .home-footer {
         font-size: 0.8rem;
