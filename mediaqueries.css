@@ -19,10 +19,14 @@
         padding: 20px;
         text-align: center;
         position: relative;
-        top: 150px;
+        top: 290px;
     }
     .home-content {
         max-width: 100%;
+    }
+
+    .home-content h1, h2, p {
+        top: 50px;
     }
 
     .home-content h1, .home-content h2 {
@@ -35,29 +39,31 @@
 
     .avatar {
         border: none;
-        background: transparent;
+        background: #FF7F50;
         margin: -40px auto;
         left: 0;
         position: relative;
-        bottom: 90px;
+        bottom: 390px;
         overflow: hidden;
         justify-content: center;
         }
 
     .avatar-img {
-        height: 170px;
+        width: 100%;
+        height: 200px auto;
+
     }
 
     .btn-box {
-        top: 110px;
+        top: 50px;
     }
+
+
 
     .home-footer {
         font-size: 0.8rem;
         justify-content: center;
     }
-
-
 
     
 
