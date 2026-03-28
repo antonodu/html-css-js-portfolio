@@ -413,6 +413,7 @@ bottom: 50px;
 }
 
 /* SKILLS */
+
 .skills {
     display: flex;
     justify-content: center;
@@ -420,6 +421,7 @@ bottom: 50px;
     bottom: 90px;
     font-size: 2rem;
 }
+
 .flex-list {
    display: flex;
    flex-wrap: wrap;
@@ -483,10 +485,16 @@ h4 {
     font-size: 1.4375rem;
 }
 .projects-container {
-   display: flex;
-   justify-content: space-evenly;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   max-width: 1100px;
+   padding: 70px;
+   gap: 30px;
+
 }
 .project-card {
+    display: flex;
+    flex-direction: column;
     background-color: #1E293B;
     width: 400px;
     height: 410px;
@@ -576,10 +584,12 @@ h4 {
 .services-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    place-items: center;
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+    top: 10px;
     bottom: 20px;
 }
 
@@ -587,53 +597,35 @@ h4 {
     flex: 1;
     max-width: 400px;
     padding: 20px;
-    height: 380px;
-    width: 600px;
+    height: 100%;
+    width: 400%;
     background-color: #1E293B;
     border-radius: 10px;
-}
-
-.services-title {
-    display: flex;
-    justify-content: center;
-    font-size: 3rem;
-}
-
-.cta-section {
-    text-align: center;
-    margin: 3rem 0;
-}
-
-
-.cta-button {
-    background: #FF7F50;
-    color: #fff;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: background 0.3s ease;
-    display: inline-block;
-}
-
-
-.cta-button:hover {
-    background: #333;
-}
-
-.service-pricing {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1rem;
 }
 
 .services-card h3 {
     font-size: 1.4rem;
     color: #FF7F50;
     margin-bottom: 10px; /* Adds space between heading and paragraph */
+    display: flex;
+    justify-content: center;
 }
 
+.services-card i {
+    font-size: 2.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.services-title {
+    display: flex;
+    font-size: 3rem;
+}
+
+
 .services-card p {
+    text-align: center;
+    padding: 1rem;
     font-size: .95rem;
     color: #ffffff;
     line-height: 1.5; /* Improves readability of longer text */
