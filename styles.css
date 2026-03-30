@@ -104,7 +104,7 @@ nav, .nav-links {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #374151;
+    background-color: #111827;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 80px;
@@ -121,7 +121,7 @@ nav, .nav-links {
 }
 
 .menu a:hover {
-    background-color: #1D4ED8;
+    background-color: #2563EB;
 }
 
 #mobile-header {
@@ -161,7 +161,7 @@ nav, .nav-links {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;  
-    color: #1D4ED8; 
+    color: #2563EB;
 }
 
 .home-content h1::before {
@@ -180,7 +180,7 @@ nav, .nav-links {
     position: relative;
     font-size: 2.125rem;
     font-weight: 700;
-    color: #1D4ED8;
+    color: #2563EB;
 }
 
 .home-content h2::before {
@@ -199,7 +199,7 @@ nav, .nav-links {
     position: relative;
     font-size: 1rem;
     margin: 20px 0 40px;
-    color: #374151;
+    color: #111827;;
 }
 
 .home-content p::before {
@@ -260,7 +260,7 @@ nav, .nav-links {
 }
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #1D4ED8;
+    color: #1D4ED8
 }
 
 .btn-box a:nth-child(2):hover {
@@ -335,8 +335,8 @@ nav, .nav-links {
     min-width: 300px;
     max-width: 300px;
     width: 300px;
-    border: 20px solid darkblue;
-    background-color: #C4A484;
+    border: 20px solid #2563EB;
+    background-color: #FDF6EC;
     border-radius: 50%;
     position: relative;
     left: 120px;
@@ -359,6 +359,7 @@ nav, .nav-links {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 /*ABOUT ME */
@@ -372,10 +373,10 @@ nav, .nav-links {
     position: relative;
     top: 20px;
     padding-left: 70px;
-    color: #374151;
+    color: #111827;
 }
 .aboutme {
-    color: #1D4ED8;
+    color: #2563EB;
     margin-left: 5px;
 }
 .text-heading {
@@ -386,15 +387,16 @@ nav, .nav-links {
     right: 270px;
 }
 
+
 .about-text {
-font-size: 1.1rem;
-line-height: 1.8;
-margin-bottom: -140px;
-max-width: 1000px;
-margin: 70px;
-position: relative;
-bottom: 50px;
-color: #374151;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: -140px;
+    max-width: 1000px;
+    margin: 70px;
+    position: relative;
+    bottom: 50px;
+    color: #111827;
 }
 
 .about-footer {
@@ -406,6 +408,7 @@ color: #374151;
     text-align: center;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
     
 }
 
@@ -492,7 +495,7 @@ h4 {
 
 }
 .project-card {
-    background-color: #374151;
+    background-color: #EEF2FF;
     width: 400px;
     height: 410px;
     border-radius: 12px;
@@ -501,6 +504,7 @@ h4 {
     top: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    border: 1px solid #E5E7EB;
 }
 
 .project-card:hover {
@@ -514,14 +518,15 @@ h4 {
 }
 
 .project-title {
-    color: #1D4ED8;
+    color: #111827;
     padding-left: 10px;
     font-size: 1.4375rem;
 }
 
 .project-description {
     padding-left: 10px;
-    font-size: 1rem
+    font-size: 1rem;
+    color: #374151;
 }
 
 .tech-stack {
@@ -541,7 +546,7 @@ h4 {
 }
 
 .button a {
-    background: #1D4ED8;
+    background: #2563EB;
     border-radius: 30px;
     width: 170px;
     padding: 10px 20px;
@@ -576,11 +581,16 @@ h4 {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 /* SERVICES */
+
+
 #services-container {
-    padding: 4rem 2rem;
+    position: relative;
+    top: 50px;
 }
+
 
 .services-cards {
     display: grid;
@@ -599,13 +609,13 @@ h4 {
     padding: 30px;
     height: 100%;
     width: 400%;
-    background-color: #374151;
+    background-color: #EEF2FF;
     border-radius: 10px;
 }
 
 .services-card h3 {
     font-size: 1.4rem;
-    color: #1D4ED8;
+    color: #2563EB;
     margin-bottom: 10px; /* Adds space between heading and paragraph */
     display: flex;
     justify-content: center;
@@ -615,20 +625,20 @@ h4 {
     font-size: 2.25rem;
     display: flex;
     justify-content: center;
+    color: #000;
 }
 
 .services-title {
     display: flex;
     font-size: 3rem;
-    color: #1D4ED8;
-
+    color: #2563EB;
 }
 
 .services-card p {
     text-align: center;
     padding: 1rem;
     font-size: .95rem;
-    color: #ffffff;
+    color: #111827;
     line-height: 1.5; /* Improves readability of longer text */
     word-wrap: break-word; /* Ensures long words wrap within the box */
     overflow: hidden; /* Prevents text from spilling out of the box */
@@ -647,7 +657,7 @@ ul li {
 }
 
 .tick-icon {
-    color: #FF7F50;
+    color: darkblue;
 }
 
 .services-footer {
@@ -655,8 +665,11 @@ ul li {
     background-color: #0E2431;
     padding: 2rem;
     text-align: center;
-    display: flex;
     justify-content: space-between;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+
 }
 /* CONTACT FORM */
 .contact-title {
@@ -666,7 +679,7 @@ ul li {
     position: relative;
     top: 20px;
     right: 60px;
-    color: #374151;
+    color: #111827;
 }
 
 .contactform-heading {
@@ -689,7 +702,7 @@ ul li {
     font-size: 1rem;
     max-width: 500px;
     padding: 20px;
-    color: #374151;
+    color: #111827;
 }
 
 .contactform-box {
@@ -733,6 +746,7 @@ ul li {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 .footer {
@@ -751,6 +765,7 @@ footer {
     bottom: 0;
     right: 0;
     width: 100%;
+  
 
 }
 form {
@@ -764,7 +779,7 @@ label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: bold;
-    color: #374151;
+    color: #111827;
 }
 
 input, textarea {
@@ -778,7 +793,7 @@ input, textarea {
 
 button {
     padding: 0.75rem 1.5rem;
-    background-color:#1D4ED8;
+    background-color: #2563EB;
     color: white;
     border: none;
     border-radius: 10px;
@@ -789,7 +804,7 @@ button {
 }
 
 button:focus, input:focus, textarea:focus {
-    outline: 3px solid #FF7F50;
+    outline: 3px solid #1D4ED8;
     outline-offset: 2px;
 }
 
