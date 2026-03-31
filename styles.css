@@ -81,7 +81,7 @@ nav, .nav-links {
 
 #navigation-bar .nav-links li a:hover,
 #navigation-bar .nav-links li a.active {
-    color: #1D4ED8;
+    color: #124BC4;
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
@@ -161,7 +161,7 @@ nav, .nav-links {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;  
-    color: #2563EB;
+    color: #124BC4
 }
 
 .home-content h1::before {
@@ -180,7 +180,7 @@ nav, .nav-links {
     position: relative;
     font-size: 2.125rem;
     font-weight: 700;
-    color: #2563EB;
+    color: #124BC4;
 }
 
 .home-content h2::before {
@@ -240,8 +240,8 @@ nav, .nav-links {
     display: inline-flex;
     width: 190px;
     height: 100%;
-    background: #1D4ED8;
-    border: 2px solid #1D4ED8;
+    background: #124BC4;
+    border: 2px solid #124BC4;
     border-radius: 8px;
     font-size: 19px;
     color: wheat;
@@ -256,11 +256,11 @@ nav, .nav-links {
 }
 
 .btn-box a:hover {
-    color: #1D4ED8;
+    color: #124BC4;
 }
 .btn-box a:nth-child(2) {
     background: transparent;
-    color: #1D4ED8
+    color: #124BC4
 }
 
 .btn-box a:nth-child(2):hover {
@@ -268,7 +268,7 @@ nav, .nav-links {
 }
 
 .btn-box a:nth-child(2)::before {
-    background: #1D4ED8;
+    background: #124BC4;
 }
 
 .btn-box a::before {
@@ -302,7 +302,7 @@ nav, .nav-links {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #1D4ED8;
+    border: 2px solid #124BC4;
     border-radius: 50%;
     font-size: 1.25rem;
     color: wheat;
@@ -321,7 +321,7 @@ nav, .nav-links {
     left: 0;
     width: 0;
     height: 100%;
-    background: #1D4ED8;
+    background: #124BC4;
     z-index: -1;
     transition: .5s;
 }
@@ -335,7 +335,7 @@ nav, .nav-links {
     min-width: 300px;
     max-width: 300px;
     width: 300px;
-    border: 20px solid #2563EB;
+    border: 20px solid #124BC4;
     background-color: #FDF6EC;
     border-radius: 50%;
     position: relative;
@@ -376,7 +376,7 @@ nav, .nav-links {
     color: #111827;
 }
 .aboutme {
-    color: #2563EB;
+    color: #124BC4;
     margin-left: 5px;
 }
 .text-heading {
@@ -546,7 +546,7 @@ h4 {
 }
 
 .button a {
-    background: #2563EB;
+    background: #124BC4;
     border-radius: 30px;
     width: 170px;
     padding: 10px 20px;
@@ -615,7 +615,7 @@ h4 {
 
 .services-card h3 {
     font-size: 1.4rem;
-    color: #2563EB;
+    color: #124BC4;
     margin-bottom: 10px; /* Adds space between heading and paragraph */
     display: flex;
     justify-content: center;
@@ -631,7 +631,8 @@ h4 {
 .services-title {
     display: flex;
     font-size: 3rem;
-    color: #2563EB;
+    color: #124BC4;
+    margin-left: 110px;
 }
 
 .services-card p {
@@ -708,34 +709,6 @@ ul li {
 .contactform-box {
     display: flex;
     justify-content: flex-start
-
-}
-
-.contactform-socials {
-    display: inline-flex;
-    justify-content: flex-start;
-    gap: 30px;
-    position: relative;
-    bottom: 235px;
-    left: 95px;
-}
-
-.contactform-socials a {
-    display: inline-flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #1D4ED8;
-    border-radius: 50%;
-    font-size: 1.25rem;
-    color: #374151;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
 }
 
 .contact-footer {
@@ -793,7 +766,7 @@ input, textarea {
 
 button {
     padding: .75rem 2.5rem;
-    background-color: #2563EB;
+    background-color: #124BC4;
     color: white;
     border: none;
     border-radius: 10px;
@@ -804,7 +777,7 @@ button {
 }
 
 button:focus, input:focus, textarea:focus {
-    outline: 3px solid #1D4ED8;
+    outline: 3px solid #124BC4;
     outline-offset: 2px;
 }
 
