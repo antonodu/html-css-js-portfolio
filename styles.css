@@ -487,17 +487,17 @@ nav, .nav-links {
 h4 {
     font-size: 1.4375rem;
 }
-.projects-container {
+.cards {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
    padding: 70px;
    gap: 30px;
-
 }
+
 .project-card {
+    display: grid;
     background-color: #EEF2FF;
-    width: 400px;
-    height: 428px;
+    padding: 30px;
     border-radius: 12px;
     overflow: hidden;
     position: relative;
@@ -511,10 +511,16 @@ h4 {
     transform: translateY(-12px);
 }
 
-.project-image {
-    width: 400px;
+.project-card-image {
+    width: 100%;
     height: 200px;
-    object-fit: cover;
+    overflow: hidden;
+}
+
+.project-card-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .project-title {
@@ -531,18 +537,28 @@ h4 {
 
 .tech-stack {
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    gap: 5px;
     position: relative;
     top: 5px;
 }
 
+.tech-stack span {
+    background-color: transparent;
+    color: #4338CA;
+    border: 1px solid #4338CA;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 7px;
+}
+
 .button {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     position: relative;
     top: 10px;
+    margin-top: 20px;
 }
 
 .button a {
@@ -554,6 +570,12 @@ h4 {
     display: flex;
     justify-content: center;
     text-decoration: none;
+}
+
+.button-btn a {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
 }
 
 .button-btn {
