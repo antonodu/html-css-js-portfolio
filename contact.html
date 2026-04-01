@@ -34,45 +34,40 @@
         <li><a href="services.html">Blog</a></li>
         <li><a href="contact.html">Contact</a></li>
     </ul>
-    <section id="contactform">
-        <h2 class="contact-title">Let's Work <span class="aboutme">Together!</span></h2>
-             <div class="contactform-box">
-            <p class="contactform-subtext">
-                Do you have an existing project you need help with redesigning and developing? 
-                Or you need a website or web application built from scratch. 
-                Get in touch with me. I’m open to freelance opportunities, contract work or project collaboration. 
-                Have a question? Drop me a message
-            </p>
+   <section id="contact">
+    <div class="contact-container">
+        <div class="contact-header">
+            <h2 class="contact-title">Let's Work <span class="aboutme">Together!</span></h2>
+            <p class="contactform-text">Hey! Thanks for stopping by. If you need to get in contact with me,
+        feel free to use this form or reach me on my socials below ⬇️ .</p>
+    </div>
 
-                <form action="process-form.php" method="POST" aria-labelledby="contact-heading">
-                    <input type="hidden" name="form-name" value="contact">
-                    <div>
-                        <label for="name">Your Name:</label>
-                        <input type="text" id="name" name="name" required aria-labelledby="true">
-                    </div>
-                    <div>
-                        <label for="email">Your Email:</label>
-                        <input type="email" id="email" id="email" required aria-labelledby="true">
-                        <div id="emailHelp" aria-live="polite">
+                <div class="contact-content">
+                    <form class="contact-form" action="process-form.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                        </div>
+
+                        <div class="form-group">
+                             <label for="email">Your Email</label>
+                             <input type="email" id="email" name="email" required aria-describedby="emailHelp">
+                              <div id="emailHelp" aria-live="polite">
                             Please Enter a valid email address
                         </div>
-                    </div> 
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                        </div>
+                        
+                        <button type="submit">Send Message</button>
 
-                    <div>
-                        <label for="message">Your Message:</label>
-                        <textarea name="message" id="message" rows="5" required aria-required="true"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">Send</button>
-                    </div>
                     <div id="success-message" role="status" aria-live="polite" hidden>
                         Thank you! Your message has been sent successfully
                     </div>
-                </form>
-            </div>
-
-    
-            
+                    </form>
+                    </div>
     </section>
    <footer class="contact-footer">
          <div class="socials-icons">

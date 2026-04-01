@@ -96,7 +96,7 @@
     top: 37px;
 }
 
-.flex-list {
+.skills-list {
     position: relative;
     top: 30px;
 }
@@ -136,39 +136,33 @@
 
 /* CONTACT */
 
+.contact-content {
+    margin-right: 200px;
+}
+
+
 .contact-title {
-    font-size: 2.5rem;
+    display: inline-block;
     position: relative;
-    top: 140px;
-    left: 30px;
+    font-size: 2rem;
+    top: 110px;
+    left: 120px;
 }
 
-.contactform-box {
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contactform-subtext {
+.contactform-text {
     display: flex;
-    justify-content: flex-start;
     position: relative;
-    top: 130px;
-    left: 130px;
+    top: 120px;
+    max-width: 500px;
 }
 
-form {
-    position: relative;
-    top: 80px;
-    left: 120px ;
+.contact-form {
+    padding: 20px;
+    top: 110px;
+    left: 110px ;
 }
 
-.contactform-socials {
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-    top: 100px;
-    left: 220px;
-}
+
 
 .contact-footer {
     font-size: 0.8rem;
