@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./mediaqueries.css">
     <link rel="icon" href="./assests/favicon.ico">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
     <nav id="navigation-bar">
@@ -35,48 +36,107 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
-        <section id="services-container">
+<section id="services-container">
     <h2 class="services-title">Services</h2>
 
-  
+    <section class="cta-top">
+        <a class="cta-button" href="#">Book a Free Consultation</a>
+    </section>
 
     <div class="services-cards">
 
-        <!-- Front End Development -->
+        <!-- Frontend Development -->
         <div class="services-card">
-            <h3 class="service-title">Frontend Web Development</h3>
-            <i class="bx bx-code" /></i>
-            <p class="services-description">I take designs and craft them into modern, responsive websites and web applications. I focus on writing clean code, performance and accessibility to ensure it runs smoothly and is suitable for everyone to use.</p>
-            
+            <div class="card-header">
+                <h3 class="service-title">Landing Page</h3>
+                <span class="price">£400+</span>
+            </div>
+            <ul class="features-list">
+                <li><i class='bx bx-code-alt'></i> Modern HTML, CSS and JavaScript</li>
+                <li><i class='bx bx-layer'></i> Optional React-based architecture</li>
+                <li><i class='bx bx-mobile-alt'></i> Fully responsive (mobile, tablet, desktop)</li>
+                <li><i class='bx bx-check-circle'></i> Clean and maintainable code</li>
+                <li><i class='bx bx-globe'></i> Cross-browser compatibility</li>
+                <li><i class='bx bx-search'></i> SEO optimisation</li>
+                <li><i class='bx bx-refresh'></i> 3 revisions included</li>
+            </ul>
         </div>
 
         <!-- UI/UX Design -->
         <div class="services-card">
-            <h3 class="service-title">UI/UX Design</h3>
-            <i class="bx bx-desktop" /></i>
-            <p>I design websites and apps by taking them through the design stages, this includes sketching up wireframes and making prototypes to meet the needs of the client and ensure the design is user friendly.</p>
-           
+            <div class="card-header">
+                <h3 class="service-title">UI/UX Design</h3>
+                <span class="price">£250+</span>
+            </div>
+            <ul class="features-list">
+                <li><i class='bx bx-layout'></i> Wireframes for visual structure</li>
+                <li><i class='bx bx-palette'></i> Modern, user-friendly UI layouts</li>
+                <li><i class='bx bx-user'></i> User-focused design decisions</li>
+                <li><i class='bx bx-color'></i> Colour palettes & typography</li>
+                <li><i class='bx bx-show'></i> Prototype preview before development</li>
+                <li><i class='bx bx-check-shield'></i> Brand consistency</li>
+                <li><i class='bx bx-refresh'></i> 3 revisions included</li>
+            </ul>
         </div>
 
-        <!-- Landing Page Development -->
+        <!-- Landing Page -->
         <div class="services-card">
-            <h3 class="service-title">UI/UX Design</h3>
-             <i class="bx bx-cart" /></i>
-             <p>Coming soon...</p>
+            <div class="card-header">
+                <h3 class="service-title">Portfolio Websites</h3>
+                <span class="price">£300+</span>
+            </div>
+            <ul class="features-list">
+                <li><i class='bx bx-user-circle'></i> Personal branding design</li>
+                <li><i class='bx bx-image'></i> Project showcase</li>
+                <li><i class='bx bx-file'></i> Full page setup</li>
+                <li><i class='bx bx-move'></i> Smooth animations</li>
+                <li><i class='bx bx-share-alt'></i> Social integration</li>
+                <li><i class='bx bx-refresh'></i> 3 revisions included</li>
+            </ul>
         </div>
 
-   
+        <!-- Website Redesign -->
+        <div class="services-card">
+            <div class="card-header">
+                <h3 class="service-title">Website Redesign</h3>
+                <span class="price">£200+</span>
+            </div>
+            <ul class="features-list">
+                <li><i class='bx bx-paint'></i> Overhaul of outdated UI</li>
+                <li><i class='bx bx-devices'></i> Improved responsiveness</li>
+                <li><i class='bx bx-tachometer'></i> Better performance</li>
+                <li><i class='bx bx-brush'></i> Updated branding</li>
+                <li><i class='bx bx-trending-up'></i> Improved conversions</li>
+            </ul>
+        </div>
 
-      
-        
+        <!-- Maintenance -->
+        <div class="services-card">
+            <div class="card-header">
+                <h3 class="service-title">Maintenance & Support</h3>
+                <span class="price">£50+</span>
+            </div>
+            <ul class="features-list">
+                <li><i class='bx bx-bug'></i> Bug fixes & improvements</li>
+                <li><i class='bx bx-calendar'></i> Monthly updates</li>
+                <li><i class='bx bx-link'></i> Broken link checks</li>
+                <li><i class='bx bx-universal-access'></i> Accessibility improvements</li>
+                <li><i class='bx bx-tachometer'></i> Speed optimisation</li>
+                <li><i class='bx bx-edit'></i> Content updates</li>
+            </ul>
+        </div>
 
+    </div>
 
- 
-
+            <section class="cta-bottom">
+                <a class="cta-button" href="mailto:antonsodu@gmail.com">Let’s Chat!</a>
+                <a class="cta-button" href="projects.html">View My Projects</a>
+            </section>
+</section>
     </div>
  
 
-    <footer class="services-footer">
+    <footer class="services-footer" role="contentinfo">
          <div class="socials-icons">
             <a href="https://github.com/antonodu" target="_blank" aria-label="GitHub"><i class='bx bxl-github'></i></a>
             <a href="https://www.linkedin.com/in/anthonyodumodu/" target="_blank" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>

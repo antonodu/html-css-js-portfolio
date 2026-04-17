@@ -551,7 +551,7 @@ h4 {
 .tech-stack span {
     background-color: transparent;
     color: #4338CA;
-    border: 1px solid #4338CA;
+    border: 2px solid #4338CA;
     padding: 6px 12px;
     border-radius: 4px;
     font-size: 0.9rem;
@@ -561,7 +561,7 @@ h4 {
 
 .button {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
     top: 10px;
     margin-top: 20px;
@@ -613,18 +613,16 @@ h4 {
 }
 /* SERVICES */
 
-
 #services-container {
     position: relative;
-    top: 50px;
+    top: 130px;
 }
-
 
 .services-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     place-items: center;
-    gap: 3rem;
+    gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
@@ -632,27 +630,37 @@ h4 {
 }
 
 .services-card {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     max-width: 400px;
-    padding: 30px;
     height: 100%;
+    padding: 24px;
     width: 400%;
     background-color: #EEF2FF;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.services-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 .services-card h3 {
     font-size: 1.4rem;
     color: #124BC4;
-    margin-bottom: 10px; /* Adds space between heading and paragraph */
+    margin-bottom: 6px; /* Adds space between heading and paragraph */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    border-bottom: 3px solid #124BC4;
 }
 
-.services-card i {
+.service-pricing {
     font-size: 2.25rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     color: #000;
 }
 
@@ -665,7 +673,6 @@ h4 {
 
 .services-card p {
     text-align: center;
-    padding: 1rem;
     font-size: .95rem;
     color: #111827;
     line-height: 1.5; /* Improves readability of longer text */
@@ -674,19 +681,32 @@ h4 {
     text-overflow: ellipsis; /* Adds ellipsis if the text overflows */
 }
 
+.features-list {
+    margin: 20px;
+    flex-grow: 1;
+}
+
 .features-list li {
-    font-size: .90rem;
-    position: relative;
-    top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
     margin-bottom: 12px;
+}
+
+.features-list i {
+    font-size: 1.75rem;
+    color: #124BC4;
+    flex-shrink: 0;
 }
 
 ul li {
     list-style: none;
+    color: #000;
 }
 
 .tick-icon {
-    color: darkblue;
+    color: #124BC4;
 }
 
 .services-footer {
