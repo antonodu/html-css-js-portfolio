@@ -615,18 +615,50 @@ h4 {
 
 #services-container {
     position: relative;
-    top: 130px;
 }
+.cta-top  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cta-top a {
+    background: #124BC4;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-bottom  {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.cta-bottom a {
+    background: #124BC4;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
 
 .services-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     place-items: center;
-    gap: 2rem;
+    gap: 3rem;
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    margin-top: 30px;
+    margin-top: 57px;
 }
 
 .services-card {
@@ -639,13 +671,19 @@ h4 {
     width: 400%;
     background-color: #EEF2FF;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 10px grey;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.services-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price {
+    color: darkblue;
 }
 
 .services-card h3 {
